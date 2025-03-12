@@ -1,0 +1,44 @@
+name: par
+description: "A new Flutter project."
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.17
+  cupertino_icons: ^1.0.8
+  http: ^1.3.0 
+  json_annotation: ^4.3.0
+  path_provider: ^2.0.11  # Add the path_provider dependency
+  graphql_flutter: ^5.0.0
+  google_maps_flutter: ^2.0.6
+  url_launcher: ^6.3.1
+  qr_flutter: ^4.1.0
+  geofence_flutter: ^2.0.0
+  geolocator: ^9.0.2
+  get: ^4.7.2
+  shared_preferences: ^2.5.2
+  intl: ^0.20.2
+  speech_to_text: ^7.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.1.0
+  json_serializable: ^6.1.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/bike.png
+    - assets/images/hk.png
+    - assets/images/Scr.png
+    - assets/images/image1.png
